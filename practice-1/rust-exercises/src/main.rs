@@ -4,8 +4,8 @@ mod check_balance;
 
 fn main() {
     generate_keypair::generate_keypair();
-    println!("\n");
+    println!();
     load_keypair::load_keypair();
-    println!("\n");
+    println!();
     check_balance::check_balance();
 }
