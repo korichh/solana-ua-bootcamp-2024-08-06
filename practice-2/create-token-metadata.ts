@@ -64,4 +64,4 @@ await sendAndConfirmTransaction(
 )
 
 const tokenMintLink = getExplorerLink('address', tokenMintAccount.toString(), 'devnet')
-console.log(`✅ Look at the token mint again: ${tokenMintLink}!`)
+console.log(`✅ Look at the token mint again: ${tokenMintLink} !`)
