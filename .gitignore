@@ -1,6 +1,11 @@
 node_modules
-package-lock.json
 .env
 
 target
 Cargo.lock
+
+.anchor
+.DS_Store
+**/*.rs.bk
+test-ledger
+.yarn
